@@ -1,0 +1,41 @@
+/* CSS for html-width file testing */
+
+.attentiongrab {
+    width: 50%;
+    font-weight: bold;
+}
+
+#mainnavigation {
+    background-color: #ffcc33;
+    color: navy;
+    font-weight: bold;
+    width: 200px;
+    height: 400px;
+}
+
+.highlight {
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: red;
+    border-bottom-width: 3px;
+    border-bottom-style: dotted;
+    border-bottom-color: blue;
+    border-left-width: 5px;
+    border-left-style: dashed;
+    border-left-color: yellow;
+    border-right-width: 7px;
+    border-right-style: double;
+    border-right-color: fuchsia;
+}
+
+
+/* shorthand border styles in CSS */
+
+.highlight {
+    border-top: 1px solid red;
+    border-bottom: 3px dotted blue;
+    border-left: 5px dashed yellow;
+    border-bottom: 7px double fuchsia;
+}
+
+/* shorthand border styles in CSS */

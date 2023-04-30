@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Absolute Positioning in CSS</title>
+
+    <!--CSS styling starts here-->
+    
+    <style type="text/css">
+
+        #redblock {
+            position: absolute;
+            top: 200px;
+            left: 200px;
+            color: white;
+            background-color: red;
+            width: 90px;
+            height: 90px;
+            padding: 5px;
+        }
+
+        #yellowblock {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            background-color: yellow;
+            color: red;
+            width: 50px;
+            height: 50px;
+            padding: 5px;
+        }
+
+    </style>
+
+    <!--CSS styling ends here-->
+
+</head>
+
+<body>
+
+    <div id="bodycontent"><!--bodycontent div starts here-->
+        
+        <h1>
+            Absolute Positioning in CSS
+        </h1>
+
+        <div id="redblock"><!--redblock div starts-->
+
+            <div id="yellowblock">
+                Yellow!
+            </div>
+
+        </div><!--redblock div ends-->
+
+        <p>
+            The red block is positioned 200 pixels from the top and 200 pixels from the left.
+        </P>
+        <p>
+            The yellow block inside is positioned 20 pixels from the top of its paren element, and 20 pixels to 
+            the left.
+        </p>
+
+    </div><!--bodycontent div ends here-->
+
+</body>
+
+</html>

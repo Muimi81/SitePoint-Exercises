@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inline CSS</title>
+
+    <!--start of embedded stylesheet-->
+    <style type="text/css">
+        p {
+            font-weight: bold;
+            color: blue;
+        }
+    </style><!--end of embedded stylesheet-->
+</head>
+<body>
+    <div id="bodytext"><!--stat of bodytext div-->
+        <p style="color: red; font-weight: bold;">
+            The quick brow fox jumps over the lazy dog.
+        </p>
+        <p style="font-style: italic;">
+            The quick brow fox jumps over the lazy dog.
+        </p>
+        <p>
+            The quick brown fox <span style="font-style: italic; font-weight: bold;">jumols</span>
+            over the lazy dog.
+        </p>
+    </div><!--end of bodytext div-->
+</body>
+</html>
