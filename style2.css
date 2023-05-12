@@ -39,3 +39,10 @@
 }
 
 /* shorthand border styles in CSS */
+
+#repeatedclouds {
+    border: 1px solid black;
+    padding: 20px;
+    background-color: #aebbdb;
+    background-image: url(what-a-start.PNG);
+}
