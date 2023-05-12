@@ -46,3 +46,12 @@
     background-color: #aebbdb;
     background-image: url(what-a-start.PNG);
 }
+
+#verticalfade {
+    border: 1px solid black;
+    padding: 20px;
+    padding-top: 300px;
+    background-color: #e3e3e3;
+    background-image: url(what-a-start.PNG);
+    background-repeat: repeat-x;
+}
