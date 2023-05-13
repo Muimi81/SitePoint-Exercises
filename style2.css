@@ -55,3 +55,15 @@
     background-image: url(what-a-start.PNG);
     background-repeat: repeat-x;
 }
+
+.sunsets {
+    border: 1px solid black;
+    color: white;
+    font-weight: bold;
+    font-size: 300%;
+    background: black url(sunsets.PNG);
+    width: 650px;
+    height: 125px;
+    padding-left: 50px;
+    padding-top: 400px;
+}
